@@ -1,0 +1,15 @@
+{
+  "name": "new_js_scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "querycontractdic": "node -r esm -e 'require(\"./src/query_dict.js\")'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casper-js-sdk": "^2.13.0",
+    "esm": "^3.2.25"
+  }
+}
